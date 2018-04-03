@@ -1,3 +1,11 @@
+
+var express = require('express');
+
+var app = express();
+
+app.listen(process.env.PORT);
+
+
 const commando = require('discord.js-commando');
 const bot = new commando.Client();
 
