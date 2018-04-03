@@ -1,3 +1,12 @@
+"dependencies": {
+
+`"express":"*",`
+
+`"body-parser":"*",`
+
+`"bcrypt": "^0.8.5"`
+
+}
 
 var express = require('express');
 
