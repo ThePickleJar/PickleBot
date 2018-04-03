@@ -37,6 +37,7 @@ bot.on('message' , (message) => {
      if(message.content == 'ping') {
         message.channel.sendMessage('pong');
     }
+    rake rails:update:bin
 
 if(!message.content.startsWith(PREFIX)) return;
 
