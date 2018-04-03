@@ -44,4 +44,4 @@ switch (args[0].toLowerCase()){
     }
 });
 
-bot.login('process.env.BOT_TOKEN');
+bot.login('process.env.token');
