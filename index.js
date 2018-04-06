@@ -1,17 +1,3 @@
-"dependencies": {
-
-`"express":"*",`
-
-`"body-parser":"*",`
-
-`"bcrypt": "^0.8.5"`
-
-}
-
-app.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-});
-
 
 const commando = require('discord.js-commando');
 const bot = new commando.Client();
@@ -35,7 +21,6 @@ bot.on('message' , (message) => {
      if(message.content == 'ping') {
         message.channel.sendMessage('pong');
     }
-    rake rails:update:bin
 
 if(!message.content.startsWith(PREFIX)) return;
 
@@ -43,9 +28,9 @@ var args = message.content.substring(PREFIX.length).split(" ");
 
 switch (args[0].toLowerCase()){
     case "hi":
-       message.channel.sendMessage("Hello. If you would like help please type .!help");
+       message.channel.sendMessage("Hello. If you would like help please type !help");
        break;
-    default:
+  default:
        message.channel.sendMessage("That command does not exist");
        break;
     case "8ball":
@@ -60,4 +45,4 @@ switch (args[0].toLowerCase()){
     }
 });
 
-bot.login('process.env.token');
+bot.login('process.env.TOKEN');
