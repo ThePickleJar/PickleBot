@@ -1,0 +1,27 @@
+{
+  "name": "picklebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "form-data": "^2.3.2",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.1",
+    "movie-info": "^2.0.3",
+    "ms": "^2.1.1",
+    "nodemon": "^1.17.3",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "request-promise": "^4.2.2",
+    "roller": "^1.1.0",
+    "save": "^2.3.2",
+    "superagent": "^3.8.3",
+    "util.js": "0.0.0"
+  }
+}
